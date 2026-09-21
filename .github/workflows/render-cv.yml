@@ -1,14 +1,10 @@
 name: Render a CV
+name: Render a CV
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
+  # Auto-render on push is disabled: the current rendercv release (2.8) dropped
+  # the cv.label/image/summary/address fields our _data/cv.yml still uses,
+  # so every push-triggered run fails validation. Re-enable once the CV
+  # schema is updated or rendercv is pinned to a compatible version.
   workflow_call:
   workflow_dispatch:
 permissions:
