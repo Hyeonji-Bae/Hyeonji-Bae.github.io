@@ -1,5 +1,4 @@
 name: Render a CV
-name: Render a CV
 on:
   # Auto-render on push is disabled: the current rendercv release (2.8) dropped
   # the cv.label/image/summary/address fields our _data/cv.yml still uses,
