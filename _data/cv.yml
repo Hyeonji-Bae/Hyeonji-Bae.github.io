@@ -48,6 +48,13 @@ cv:
         start_date: "2025-03"
         end_date: present
 
+      - company: R&E Program, Seoul Science High School
+        position: Research Mentor
+        location: Seoul, South Korea
+        start_date: "2025-08"
+        end_date: "2026-07"
+        summary: Supported a student R&E research project and its subsequent paper revisions, under the primary supervision of the faculty advisor.
+
     Publications:
       - title: "On the Systematic Design Framework for Intuitive Interfaces in Telerobotic Operations: A Case Study in Surgical Robotics"
         authors:
