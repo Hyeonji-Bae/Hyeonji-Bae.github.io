@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: E-BRL (Ewha BioRobotics Lab), Dept. of Human Mechanical Bioengineering, Ewha Womans University
+subtitle: E-BRL (Ewha BioRobotics Lab), Dept. of Mechanical and Biomedical Engineering, Ewha Womans University
 
 profile:
   align: right
@@ -27,4 +27,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a member of the [E-BRL (Ewha BioRobotics Lab)](https://github.com/E-BRL) in the Department of Human Mechanical Bioengineering, College of Engineering, at Ewha Womans University. My research interests center on **robot control**, with a focus on interface and control design for teleoperated and surgical robotic systems.
+I am a member of the [E-BRL (Ewha BioRobotics Lab)](https://github.com/E-BRL) in the Department of Mechanical and Biomedical Engineering, College of Engineering, at Ewha Womans University. My research interests center on **robot control**, with a focus on interface and control design for teleoperated and surgical robotic systems.

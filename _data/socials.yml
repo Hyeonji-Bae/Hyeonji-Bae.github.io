@@ -8,7 +8,3 @@ orcid_id: 0009-0001-4570-8294 # your ORCID iD
 rss_icon: true # comment this line to hide the RSS icon
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://github.githubassets.com/favicons/favicon.svg # can be png, svg, jpg
-  title: E-BRL GitHub
-  url: https://github.com/E-BRL
