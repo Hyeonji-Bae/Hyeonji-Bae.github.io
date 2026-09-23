@@ -79,7 +79,7 @@ cv:
     Projects:
       - name: "SAR: Lower-Limb Wearable Robot for Fall Prevention"
         date: 2023
-        summary: Challenge Semester program, Ewha Womans University
+        summary: Supported by the Challenge Semester program, Ewha Womans University (Fall 2023)
         highlights:
           - IMU data preprocessing, SVM-based gait classification, and Arduino-based control of a high-torque actuator
 
