@@ -81,7 +81,7 @@ cv:
         date: 2023
         summary: Challenge Semester program, Ewha Womans University
         highlights:
-          - IMU data preprocessing, SVM-based gait classification, and Arduino motor control
+          - IMU data preprocessing, SVM-based gait classification, and Arduino-based control of a high-torque actuator
 
       - name: "Camera-Based Self-Moving Rescue Air Mat (Capstone Design)"
         date: 2024
