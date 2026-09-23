@@ -77,18 +77,16 @@ cv:
         url: https://doi.org/10.1109/TOH.2026.3684095
 
     Projects:
-      - name: "SAR (Support wearAble Robot): Lower-Limb Wearable Robot for Fall Prevention"
+      - name: "SAR: Lower-Limb Wearable Robot for Fall Prevention"
         date: 2023
-        summary: Team of three. Funded through the Challenge Semester program at Ewha Womans University (Fall 2023).
+        summary: Challenge Semester program, Ewha Womans University
         highlights:
-          - Preprocessed calf-mounted IMU (MPU6050) data and built an SVM model to classify gait states (normal, abnormal, and exceptional)
-          - Wrote Arduino-based motor control that responds to the classification result, and built the circuit connecting the IMU and a CAN bus shield
+          - IMU data preprocessing, SVM-based gait classification, and Arduino motor control
 
-      - name: "Rescue Air Mat with Camera-Based Automatic Movement (Capstone Design)"
+      - name: "Camera-Based Self-Moving Rescue Air Mat (Capstone Design)"
         date: 2024
-        summary: Team of five. Parabolic rescue air mat that moves automatically according to camera recognition of an object standing in for a person.
         highlights:
-          - Implemented simple real-time image processing and wheel control (adapted from an RC car)
+          - Basic real-time image processing and wheel control
 
     Teaching:
       - label: BioRobotics (Fall 2024)
