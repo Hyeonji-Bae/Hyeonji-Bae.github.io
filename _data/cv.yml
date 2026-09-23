@@ -4,7 +4,7 @@ cv:
   email: hyeonji.bae@ewha.ac.kr
   location: Seoul, South Korea
   image: ""
-  summary: Graduate researcher in the Department of Mechanical and Biomedical Engineering at Ewha Womans University. My research interests center on robot control. I have worked on control for teleoperated and surgical robotic systems, and my next research direction is learning-based control that incorporates dynamics models.
+  summary: M.S. student in Mechanical and Biomedical Engineering at Ewha Womans University, focusing on robot control. Experience in control for teleoperated and surgical robotic systems; next direction is learning-based control that incorporates dynamics models.
 
   social_networks:
     - network: GitHub
@@ -27,6 +27,8 @@ cv:
         studyType: B.S.
         start_date: "2021-03"
         end_date: "2025-02"
+        highlights:
+          - "GPA: 3.71 / 4.3"
 
       - institution: Ewha Womans University
         location: Seoul, South Korea
@@ -34,6 +36,9 @@ cv:
         studyType: M.S. (in progress)
         start_date: "2025-03"
         end_date: "2027-02"
+        highlights:
+          - "GPA: 4.26 / 4.3 (to date)"
+          - "Thesis (in progress): Improving a teleoperation system (e.g., reducing time delay) and analyzing its frequency response (e.g., Bode plots) across input frequencies"
 
     Experience:
       - company: E-BRL (Ewha BioRobotics Lab), Ewha Womans University
@@ -41,12 +46,16 @@ cv:
         location: Seoul, South Korea
         start_date: "2023-07"
         end_date: "2025-02"
+        highlights:
+          - Built the teleoperation system used in the IEEE Transactions on Haptics paper listed below
 
       - company: E-BRL (Ewha BioRobotics Lab), Ewha Womans University
         position: Graduate Researcher (M.S. Student)
         location: Seoul, South Korea
         start_date: "2025-03"
         end_date: present
+        highlights:
+          - Improving the teleoperation system built during the internship and analyzing its frequency response for the M.S. thesis
 
       - company: R&E Program, Seoul Science High School
         position: Research Mentor
@@ -69,10 +78,13 @@ cv:
 
     Skills:
       - name: Programming
-        keywords: "Python"
+        keywords: "Python, MATLAB"
 
       - name: Robotics Middleware
         keywords: "ROS 1"
+
+      - name: CAD
+        keywords: "SolidWorks, Fusion 360"
 
     Languages:
       - name: Korean
