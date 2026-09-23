@@ -86,7 +86,7 @@ cv:
       - name: "Camera-Based Self-Moving Rescue Air Mat (Capstone Design)"
         date: 2024
         highlights:
-          - Basic real-time image processing and wheel control
+          - Real-time object detection (OpenCV, YOLO) and wheel control
 
     Teaching:
       - label: BioRobotics (Fall 2024)
