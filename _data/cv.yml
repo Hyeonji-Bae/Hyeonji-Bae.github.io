@@ -4,7 +4,7 @@ cv:
   email: hyeonji.bae@ewha.ac.kr
   location: Seoul, South Korea
   image: ""
-  summary: Graduate researcher in the Department of Mechanical and Biomedical Engineering at Ewha Womans University, focusing on robot control for teleoperated and surgical robotic systems.
+  summary: Graduate researcher in the Department of Mechanical and Biomedical Engineering at Ewha Womans University. My research interests center on robot control. I have worked on control for teleoperated and surgical robotic systems, and my next research direction is learning-based control that incorporates dynamics models.
 
   social_networks:
     - network: GitHub
