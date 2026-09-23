@@ -76,6 +76,10 @@ cv:
         releaseDate: 2026
         url: https://doi.org/10.1109/TOH.2026.3684095
 
+    Teaching:
+      - label: BioRobotics (Fall 2024)
+        details: Teaching Assistant, Ewha Womans University. Led about 10 hands-on ROS 1 lab sessions and graded assignments and lab reports.
+
     Skills:
       - name: Programming
         keywords: "Python, MATLAB"
