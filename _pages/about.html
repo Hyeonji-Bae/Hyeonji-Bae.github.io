@@ -36,16 +36,18 @@ latest_posts:
   learning-based control that incorporates dynamics models.
 </p>
 
+<p><a href="{{ '/assets/pdf/Hyeonji_Bae_CV.pdf' | relative_url }}" target="_blank">CV (PDF)</a></p>
+
 <div style="clear: both"></div>
 
 {% assign cv = site.data.cv.cv %}
 
 <div class="card mt-3 p-3">
-  <h3 class="card-title font-weight-medium">News</h3>
+  <h3 class="card-title font-weight-medium">Upcoming</h3>
   <div>
     <div class="news">
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %} {% for item in news %}
+        {% assign news = site.news | sort: 'date' %} {% for item in news %}
         <tr>
           <th scope="row" class="news-date">
             <span class="news-date-day">{{ item.date | date: '%b %-d,' }}</span> <span class="news-date-year">{{ item.date | date: '%Y' }}</span>
