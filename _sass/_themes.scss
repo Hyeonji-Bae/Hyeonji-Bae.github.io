@@ -211,3 +211,26 @@ html[data-theme-setting="light"] {
 html {
   font-size: 115%;
 }
+
+/* Show the whole name in bold (the layout only bolds the first name). */
+.post-header .post-title,
+.navbar-brand {
+  font-weight: 700 !important;
+}
+
+/* Smaller profile photo. */
+.profile {
+  width: 190px !important;
+  max-width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .profile {
+    float: none !important;
+    margin: 0 auto 1rem;
+  }
+}
+
+.profile .more-info {
+  font-size: 0.8rem;
+}

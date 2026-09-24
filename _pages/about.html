@@ -1,0 +1,65 @@
+---
+layout: about
+title: about
+permalink: /
+subtitle: E-BRL (Ewha BioRobotics Lab), Dept. of Mechanical and Biomedical Engineering, Ewha Womans University
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Research Cooperation Building, Room 209</p>
+    <p>Ewha Womans University</p>
+    <p>Seoul, South Korea</p>
+
+selected_papers: false
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: false # news is rendered below in the page body instead
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/al-folio-cv.css' | relative_url }}" />
+
+<p>
+  I am a member of the
+  <a href="https://ewharobotics.wordpress.com" target="_blank" rel="external nofollow noopener">E-BRL (Ewha BioRobotics Lab)</a>
+  in the Department of Mechanical and Biomedical Engineering, College of Engineering, at Ewha Womans University. My research interests center on
+  <strong>robot control</strong>. I have worked on integrating and evaluating teleoperated surgical robotic systems, and my next research direction is
+  learning-based control that incorporates dynamics models.
+</p>
+
+<div style="clear: both"></div>
+
+{% assign cv = site.data.cv.cv %}
+
+<div class="card mt-3 p-3">
+  <h3 class="card-title font-weight-medium">News</h3>
+  <div>{% include news.liquid limit=true %}</div>
+</div>
+
+{% for section_pair in cv.sections %} {% assign section_title = section_pair[0] %} {% assign section_entries = section_pair[1] %}
+<div class="card mt-3 p-3">
+  <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
+  <div>
+    {% if section_title == 'Education' %} {% assign entries = section_entries | al_cv_sort_by_date %} {% include cv/education.liquid %} {% elsif
+    section_title == 'Experience' %} {% assign entries = section_entries | al_cv_sort_by_date %} {% include cv/experience.liquid %} {% elsif
+    section_title == 'Publications' %}
+    <div class="publications">{% bibliography --group_by none %}</div>
+    {% elsif section_title == 'Honors and Awards' %} {% assign entries = section_entries %} {% include cv/awards.liquid %} {% elsif section_title ==
+    'Skills' %} {% assign entries = section_entries %} {% include cv/skills.liquid %} {% elsif section_title == 'Languages' %} {% assign entries =
+    section_entries %} {% include cv/languages.liquid %} {% elsif section_title == 'Certificates' %} {% assign entries = section_entries %} {% include
+    cv/certificates.liquid %} {% elsif section_title == 'Projects' %} {% assign entries = section_entries %} {% include cv/projects.liquid %} {% elsif
+    section_title == 'References' %} {% assign entries = section_entries %} {% include cv/references.liquid %} {% else %} {% for entry in
+    section_entries %} {% if entry.label %}
+    <div class="card-text font-weight-light"><strong>{{ entry.label }}:</strong> {{ entry.details }}</div>
+    {% endif %} {% endfor %} {% endif %}
+  </div>
+</div>
+{% endfor %}
