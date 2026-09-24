@@ -4,7 +4,7 @@ cv:
   email: hyeonji.bae@ewha.ac.kr
   location: Seoul, South Korea
   image: ""
-  summary: M.S. student in Mechanical and Biomedical Engineering at Ewha Womans University, focusing on robot control. Experience in integrating and evaluating teleoperated surgical robotic systems; next direction is learning-based control that incorporates dynamics models.
+  summary: Robot control; teleoperation systems; frequency-domain system evaluation; learning-based control with dynamics models
 
   social_networks:
     - network: GitHub
@@ -37,6 +37,7 @@ cv:
         start_date: "2025-03"
         end_date: "2027-02"
         highlights:
+          - "Advisor: Prof. Seok Chang Ryu"
           - "GPA: 4.26 / 4.3 (to date)"
           - "Thesis (in progress): Frequency-response (Bode plot) evaluation of the responsiveness and consistency of a unilateral (no force feedback) teleoperation system, and latency reduction"
 
@@ -97,7 +98,7 @@ cv:
       - title: Outstanding Ewha Scientist Scholarship (Half Tuition)
         awarder: Ewha Womans University
         date: 2025
-        summary: Two years (Mar 2025 - Feb 2027) of half-tuition support for Ewha graduates with an undergraduate GPA of 3.5 or above.
+        summary: Mar 2025 - Feb 2027 (two years)
 
       - title: Silver Award, 2024 Ewha Engineering Capstone Design Contest (Single-Major Division)
         awarder: Center for Innovation in Engineering Education, College of Engineering, Ewha Womans University
@@ -134,4 +135,4 @@ cv:
 
     References:
       - name: Prof. Seok Chang Ryu
-        reference: Department of Mechanical and Biomedical Engineering, Ewha Womans University. Contact information available upon request.
+        reference: Department of Mechanical and Biomedical Engineering, Ewha Womans University.
