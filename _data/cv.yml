@@ -63,7 +63,8 @@ cv:
         location: Seoul, South Korea
         start_date: "2025-08"
         end_date: "2026-07"
-        summary: Supported a student R&E research project and its subsequent paper revisions, under the primary supervision of the faculty advisor.
+        highlights:
+          - Supported a student R&E research project and its subsequent paper revisions, under the primary supervision of the faculty advisor
 
     Publications:
       - title: "On the Systematic Design Framework for Intuitive Interfaces in Telerobotic Operations: A Case Study in Surgical Robotics"
