@@ -294,3 +294,19 @@ footer.fixed-bottom .container {
   font-size: clamp(0.6rem, 3.1vw, 0.8rem) !important;
   white-space: nowrap;
 }
+
+/* Phones: use the card width better (less left indent, smaller section titles). */
+@media (max-width: 575.98px) {
+  .card ul.list-group {
+    padding-left: 0 !important;
+    list-style: none;
+  }
+
+  .card ul.items {
+    padding-left: 1.1rem;
+  }
+
+  .card h3.card-title {
+    font-size: clamp(1.45rem, 7.4vw, 2rem) !important;
+  }
+}
