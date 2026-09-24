@@ -18,9 +18,16 @@ layout: default
 {% endif %}
 
 <style>
-  /* Keep the contact-info labels ("Professional Title") on one line. */
+  /* Keep the contact-info labels ("Professional Title") on one line on wider screens. */
   table.table-cv.table-borderless td:first-child {
-    white-space: nowrap;
     padding-right: 1rem;
+  }
+  @media (min-width: 768px) {
+    table.table-cv.table-borderless td:first-child {
+      white-space: nowrap;
+    }
+  }
+  table.table-cv.table-borderless td:last-child {
+    overflow-wrap: anywhere;
   }
 </style>
