@@ -76,6 +76,10 @@ cv:
         releaseDate: 2026
         url: https://doi.org/10.1109/TOH.2026.3684095
 
+    Teaching:
+      - label: BioRobotics (Fall 2024)
+        details: Teaching Assistant, Ewha Womans University. Led about 10 hands-on ROS 1 lab sessions and graded assignments and lab reports.
+
     Projects:
       - name: "SAR: Lower-Limb Wearable Robot for Fall Prevention"
         date: 2023
@@ -87,10 +91,6 @@ cv:
         date: 2024
         highlights:
           - Real-time object detection (OpenCV, YOLO) and wheel control
-
-    Teaching:
-      - label: BioRobotics (Fall 2024)
-        details: Teaching Assistant, Ewha Womans University. Led about 10 hands-on ROS 1 lab sessions and graded assignments and lab reports.
 
     Honors and Awards:
       - title: Outstanding Ewha Scientist Scholarship (Half Tuition)
@@ -130,3 +130,7 @@ cv:
         date: 2023
         issuer: Coursera
         icon: fa-solid fa-robot
+
+    References:
+      - name: Prof. Seok Chang Ryu
+        reference: Department of Mechanical and Biomedical Engineering, Ewha Womans University. Contact information available upon request.
