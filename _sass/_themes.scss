@@ -264,3 +264,33 @@ footer.fixed-bottom .container {
   color: #ffffff !important;
   opacity: 0.92;
 }
+
+/* News dates: keep "Feb 26," and "2027" together on phones instead of breaking every word. */
+.news .news-date {
+  width: 1% !important;
+  white-space: nowrap;
+  padding-right: 1rem;
+  vertical-align: top;
+}
+
+@media (max-width: 575.98px) {
+  .news .news-date-day,
+  .news .news-date-year {
+    display: block;
+  }
+}
+
+/* Publication link buttons: always one row, shrinking with the screen width. */
+.publications .links {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.3rem;
+}
+
+.publications .links a.btn {
+  flex: 0 0 auto;
+  margin: 0 !important;
+  padding: 0.2em 0.55em !important;
+  font-size: clamp(0.6rem, 3.1vw, 0.8rem) !important;
+  white-space: nowrap;
+}

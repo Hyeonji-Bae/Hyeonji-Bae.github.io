@@ -42,7 +42,24 @@ latest_posts:
 
 <div class="card mt-3 p-3">
   <h3 class="card-title font-weight-medium">News</h3>
-  <div>{% include news.liquid limit=true %}</div>
+  <div>
+    <div class="news">
+      <table class="table table-sm table-borderless">
+        {% assign news = site.news | reverse %} {% for item in news %}
+        <tr>
+          <th scope="row" class="news-date">
+            <span class="news-date-day">{{ item.date | date: '%b %-d,' }}</span> <span class="news-date-year">{{ item.date | date: '%Y' }}</span>
+          </th>
+          <td>
+            {{ item.content | remove: '
+            <p>' | remove: '</p>
+            ' | emojify }}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
 </div>
 
 {% for section_pair in cv.sections %} {% assign section_title = section_pair[0] %} {% assign section_entries = section_pair[1] %}
