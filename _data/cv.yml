@@ -67,11 +67,12 @@ cv:
     Publications:
       - title: "On the Systematic Design Framework for Intuitive Interfaces in Telerobotic Operations: A Case Study in Surgical Robotics"
         authors:
-          - Serin Cha
-          - Yoonsue Choi
+          - Serin Cha*
+          - Yoonsue Choi*
           - Hyeonji Bae
           - Chaewon Hwang
           - Seok Chang Ryu
+        note: "* Equal contribution"
         publisher: IEEE Transactions on Haptics
         releaseDate: 2026
         url: https://doi.org/10.1109/TOH.2026.3684095
@@ -121,7 +122,7 @@ cv:
         summary: "Working proficiency (TOEFL iBT 97, 2025)"
 
     Certificates:
-      - name: "TOEFL iBT — Score 97"
+      - name: TOEFL iBT (Score 97)
         date: 2025
         issuer: ETS
         icon: fa-solid fa-language
