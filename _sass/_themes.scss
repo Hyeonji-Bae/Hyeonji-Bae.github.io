@@ -309,4 +309,44 @@ footer.fixed-bottom .container {
   .card h3.card-title {
     font-size: clamp(1.45rem, 7.4vw, 2rem) !important;
   }
+
+  /* Dated entries: keep each date/location close to its own text and clearly apart from the previous entry. */
+  .card li.list-group-item:has(> .row) {
+    padding-top: 1.3rem !important;
+    padding-bottom: 0.2rem !important;
+  }
+
+  .card li.list-group-item:has(> .row):first-child {
+    padding-top: 0.2rem !important;
+  }
+
+  .card li.list-group-item:has(> .row) + li.list-group-item:has(> .row) {
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .card li.list-group-item > .row > div + div {
+    margin-top: 0 !important;
+  }
+
+  .card li.list-group-item > .row > div:first-child p.location {
+    margin-bottom: 0.15rem !important;
+  }
+
+  .card li.list-group-item > .row > div:first-child table {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Tablets and narrow desktop windows: keep the date/location column wide enough for its badge instead of letting it overlap the entry text. */
+@media (min-width: 576px) {
+  .card li.list-group-item > .row > .col-sm-2 {
+    flex: 0 0 max(9.5rem, 16.666667%);
+    max-width: max(9.5rem, 16.666667%);
+  }
+
+  .card li.list-group-item > .row > .col-sm-10 {
+    flex: 1 1 0;
+    max-width: none;
+    min-width: 0;
+  }
 }
