@@ -1,2 +1,2 @@
 Bump this value whenever the styles in _sass change: the theme hashes the stylesheet URL from assets/_sass, so without a change here browsers keep an old main.css.
-style-version: 2026-09-25-6
+style-version: 2026-09-25-7

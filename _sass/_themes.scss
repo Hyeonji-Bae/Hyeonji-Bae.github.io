@@ -350,3 +350,14 @@ footer.fixed-bottom .container {
     min-width: 0;
   }
 }
+
+/* Dated entries: give the location line some room under the rule above it. */
+.card li.list-group-item > .row > div:first-child table tr + tr td {
+  padding-top: 0.35rem !important;
+}
+
+/* Awards use the same date column position as the other dated sections (the theme only shifts the others). */
+.card li.list-group-item > .row > div.text-center:not(.date-column) {
+  width: 75px;
+  transform: translateX(-15px) translateY(-5px);
+}
