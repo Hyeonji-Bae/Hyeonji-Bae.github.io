@@ -13,10 +13,17 @@
     padding: 0.5rem 0;
   }
 </style> </div> </div> <a class="anchor" id="certificates"></a> <div class="card mt-3 p-3"> <h3 class="card-title font-weight-medium">Certificates</h3> <div> <ul class="card-text font-weight-light list-group list-group-flush"> <li class="list-group-item"> <i class="fa-solid fa-language"></i> <strong>TOEFL iBT — Score 97</strong> - <em>ETS</em> (2025) </li> <li class="list-group-item"> <i class="fa-solid fa-robot"></i> <strong>Modern Robotics (Northwestern University)</strong> - <em>Coursera</em> (2023) </li> </ul> </div> </div> <a class="anchor" id="references"></a> <div class="card mt-3 p-3"> <h3 class="card-title font-weight-medium">References</h3> <div> <ul class="card-text font-weight-light list-group list-group-flush"> <li class="list-group-item"> <strong>Prof. Seok Chang Ryu</strong> <p>Department of Mechanical and Biomedical Engineering, Ewha Womans University. Contact information available upon request. </p> </li> </ul> </div> </div> </div> </article> </div> <style>
-  /* Keep the contact-info labels ("Professional Title") on one line. */
+  /* Keep the contact-info labels ("Professional Title") on one line on wider screens. */
   table.table-cv.table-borderless td:first-child {
-    white-space: nowrap;
     padding-right: 1rem;
+  }
+  @media (min-width: 768px) {
+    table.table-cv.table-borderless td:first-child {
+      white-space: nowrap;
+    }
+  }
+  table.table-cv.table-borderless td:last-child {
+    overflow-wrap: anywhere;
   }
 </style> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Hyeonji Bae. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script>
   window.alFolio = {
